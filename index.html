@@ -822,7 +822,56 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
+<div class="text-center mt-4">
+        <a href="https://drive.google.com/drive/folders/15D260yu3iXditvTZRV3aebD5BTAn1vk_" target="_blank" style="text-decoration: none;">
+          <button 
+            class="d-inline-flex align-items-center justify-content-center"
+            style="
+              background: linear-gradient(135deg, #0066ff, #00ccff);
+              color: white;
+              border: none;
+              border-radius: 50px;
+              padding: 14px 28px;
+              font-size: 1.1rem;
+              font-weight: 600;
+              cursor: pointer;
+              box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='linear-gradient(135deg, #0047b3, #0099cc)'"
+            onmouseout="this.style.background='linear-gradient(135deg, #0066ff, #00ccff)'"
+          >
+            <i class="fa fa-comments me-2" style="font-size: 1.3rem;"></i>
+            <span>View Feedback</span>
+          </button>
+        </a>
+      </div>
+      
+    
+    <!-- Inline media query for responsiveness -->
+    <div style="font-size: 1rem; padding: 12px 20px; text-align: center;">
+        <style>
+            @media (max-width: 768px) {
+                .btn {
+                    font-size: 1rem; /* Smaller font size for mobile */
+                    padding: 12px 20px; /* Adjust padding for mobile */
+                }
+                .fa-comments {
+                    font-size: 1.4rem; /* Adjust icon size for mobile */
+                }
+                .btn span {
+                    font-size: 1rem; /* Adjust text size for mobile */
+                }
+            }
+    
+            .btn:hover {
+                background: linear-gradient(45deg, #283e51, #4b79a1); /* Change gradient color on hover */
+                transform: scale(1.05);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </div>
+    
     <!-- Testimonial End -->
 
 
